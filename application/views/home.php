@@ -13,20 +13,20 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <title>New Age - Start Bootstrap Theme</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="../WebPintuMagang/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?=base_url();?>assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom fonts for this template -->
-    <link rel="stylesheet" href="../WebPintuMagang/assets/vendor/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="../WebPintuMagang/assets/vendor/simple-line-icons/css/simple-line-icons.css">
+    <link rel="stylesheet" href="<?=base_url();?>assets/vendor/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="<?=base_url();?>assets/vendor/simple-line-icons/css/simple-line-icons.css">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
 
     <!-- Plugin CSS -->
-    <link rel="stylesheet" href="../WebPintuMagang/assets/device-mockups/device-mockups.min.css">
+    <link rel="stylesheet" href="<?=base_url();?>assets/device-mockups/device-mockups.min.css">
 
     <!-- Custom styles for this template -->
-    <link href="../WebPintuMagang/assets/css/new-age.min.css" rel="stylesheet">
+    <link href="<?=base_url();?>assets/css/new-age.min.css" rel="stylesheet">
 
   </head>
 
@@ -71,7 +71,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <div class="device">
                   <div class="screen">
                     <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
-                    <img src="../WebPintuMagang/assets/img/demo-screen-1.jpg" class="img-fluid" alt="">
+                    <img src="<?=base_url();?>assets/img/demo-screen-1.jpg" class="img-fluid" alt="">
                   </div>
                   <div class="button">
                     <!-- You can hook the "home button" to some JavaScript events or just remove it -->
@@ -91,8 +91,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <h2 class="section-heading">Discover what all the buzz is about!</h2>
             <p>Our app is available on any mobile device! Download now to get started!</p>
             <div class="badges">
-              <a class="badge-link" href="#"><img src="../WebPintuMagang/assets/img/google-play-badge.svg" alt=""></a>
-              <a class="badge-link" href="#"><img src="../WebPintuMagang/assets/img/app-store-badge.svg" alt=""></a>
+              <a class="badge-link" href="#"><img src="<?=base_url();?>assets/img/google-play-badge.svg" alt=""></a>
+              <a class="badge-link" href="#"><img src="<?=base_url();?>assets/img/app-store-badge.svg" alt=""></a>
             </div>
           </div>
         </div>
@@ -113,7 +113,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <div class="device">
                   <div class="screen">
                     <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
-                    <img src="../WebPintuMagang/assets/img/demo-screen-1.jpg" class="img-fluid" alt="">
+                    <img src="<?=base_url();?>assets/img/demo-screen-1.jpg" class="img-fluid" alt="">
                   </div>
                   <div class="button">
                     <!-- You can hook the "home button" to some JavaScript events or just remove it -->
@@ -215,14 +215,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     </footer>
 
     <!-- Bootstrap core JavaScript -->
-    <script src="../WebPintuMagang/assets/vendor/jquery/jquery.min.js"></script>
-    <script src="../WebPintuMagang/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="<?=base_url();?>assets/vendor/jquery/jquery.min.js"></script>
+    <script src="<?=base_url();?>assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
     <!-- Plugin JavaScript -->
-    <script src="../WebPintuMagang/assets/vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="<?=base_url();?>assets/vendor/jquery-easing/jquery.easing.min.js"></script>
 
     <!-- Custom scripts for this template -->
-    <script src="../WebPintuMagang/assets/js/new-age.min.js"></script>
+    <script src="<?=base_url();?>assets/js/new-age.min.js"></script>
 
   </body>
 
