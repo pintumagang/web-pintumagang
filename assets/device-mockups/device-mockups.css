@@ -54,7 +54,7 @@
 			bottom: 14.6747352%;
 			left:   13.364486%;
 			right:  13.364486%;
-			overflow: hidden;
+			background-image: url("assets/img/demo-screen-3.jpg");
 		}
 
 		.device-mockup > .device > .button {

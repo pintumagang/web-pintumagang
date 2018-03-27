@@ -10,23 +10,23 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>New Age - Start Bootstrap Theme</title>
+    <title>PINTU MAGANG</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="<?=base_url();?>assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?=base_url()?>assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom fonts for this template -->
-    <link rel="stylesheet" href="<?=base_url();?>assets/vendor/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="<?=base_url();?>assets/vendor/simple-line-icons/css/simple-line-icons.css">
+    <link rel="stylesheet" href="<?=base_url()?>assets/vendor/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="<?=base_url()?>assets/vendor/simple-line-icons/css/simple-line-icons.css">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
 
     <!-- Plugin CSS -->
-    <link rel="stylesheet" href="<?=base_url();?>assets/device-mockups/device-mockups.min.css">
+    <link rel="stylesheet" href="<?=base_url()?>assets/device-mockups/device-mockups.min.css">
 
     <!-- Custom styles for this template -->
-    <link href="<?=base_url();?>assets/css/new-age.min.css" rel="stylesheet">
+    <link href="<?=base_url()?>assets/css/new-age.css" rel="stylesheet">
 
   </head>
 
@@ -35,7 +35,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Pintu Magang</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu
           <i class="fa fa-bars"></i>
@@ -46,10 +46,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               <a class="nav-link js-scroll-trigger" href="#download">Download</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#features">Features</a>
+              <a class="nav-link js-scroll-trigger" href="#features">Fitur</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+              <a class="nav-link js-scroll-trigger" href="#contact">Kontak</a>
             </li>
           </ul>
         </div>
@@ -61,8 +61,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <div class="row h-100">
           <div class="col-lg-7 my-auto">
             <div class="header-content mx-auto">
-              <h1 class="mb-5">New Age is an app landing page that will help you beautifully showcase your new mobile app, or anything else!</h1>
-              <a href="#download" class="btn btn-outline btn-xl js-scroll-trigger">Start Now for Free!</a>
+              <h1 class="mb-5" style="font-size: 32px;">Pintu Magang adalah sebuah aplikasi mobile berbasis android yang membantu mahasiswa untuk keperluan mencari informasi kerja praktik (KP/Magang)</h1>
+              <a href="#download" class="btn btn-outline btn-xl js-scroll-trigger">Download Pintu Magang!</a>
             </div>
           </div>
           <div class="col-lg-5 my-auto">
@@ -71,7 +71,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <div class="device">
                   <div class="screen">
                     <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
-                    <img src="<?=base_url();?>assets/img/demo-screen-1.jpg" class="img-fluid" alt="">
+                    <img src="<?=base_url();?>assets/img/demo-screen-4.jpg" class="img-fluid" alt="">
                   </div>
                   <div class="button">
                     <!-- You can hook the "home button" to some JavaScript events or just remove it -->
@@ -88,11 +88,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       <div class="container">
         <div class="row">
           <div class="col-md-8 mx-auto">
-            <h2 class="section-heading">Discover what all the buzz is about!</h2>
-            <p>Our app is available on any mobile device! Download now to get started!</p>
+            <h2 class="section-heading">Aplikasi kami sudah tersedia di Android</h2>
+            <p></p>
             <div class="badges">
               <a class="badge-link" href="#"><img src="<?=base_url();?>assets/img/google-play-badge.svg" alt=""></a>
-              <a class="badge-link" href="#"><img src="<?=base_url();?>assets/img/app-store-badge.svg" alt=""></a>
             </div>
           </div>
         </div>
@@ -102,8 +101,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <section class="features" id="features">
       <div class="container">
         <div class="section-heading text-center">
-          <h2>Unlimited Features, Unlimited Fun</h2>
-          <p class="text-muted">Check out what you can do with this app theme!</p>
+          <h2>FITUR FITUR PINTU MAGANG</h2>
+          <p class="text-muted">Lihat apa saja yang bisa anda lakukan pada app ini</p>
           <hr>
         </div>
         <div class="row">
@@ -113,7 +112,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <div class="device">
                   <div class="screen">
                     <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
-                    <img src="<?=base_url();?>assets/img/demo-screen-1.jpg" class="img-fluid" alt="">
+                    <img src="<?=base_url();?>assets/img/demo-screen-4.jpg" class="img-fluid" alt="">
                   </div>
                   <div class="button">
                     <!-- You can hook the "home button" to some JavaScript events or just remove it -->
@@ -127,16 +126,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               <div class="row">
                 <div class="col-lg-6">
                   <div class="feature-item">
-                    <i class="icon-screen-smartphone text-primary"></i>
-                    <h3>Device Mockups</h3>
-                    <p class="text-muted">Ready to use HTML/CSS device mockups, no Photoshop required!</p>
+                    <i class="icon-list text-primary"></i>
+                    <h3>Daftar Prodi</h3>
+                    <p class="text-muted">cari informasi magang berdasarkan program studi anda.</p>
                   </div>
                 </div>
                 <div class="col-lg-6">
                   <div class="feature-item">
-                    <i class="icon-camera text-primary"></i>
-                    <h3>Flexible Use</h3>
-                    <p class="text-muted">Put an image, video, animation, or anything else in the screen!</p>
+                    <i class="icon-note text-primary"></i>
+                    <h3>Simpan CV Anda</h3>
+                    <p class="text-muted">CV yang anda upload akan tersimpan di aplikasi ini</p>
                   </div>
                 </div>
               </div>
@@ -144,15 +143,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <div class="col-lg-6">
                   <div class="feature-item">
                     <i class="icon-present text-primary"></i>
-                    <h3>Free to Use</h3>
-                    <p class="text-muted">As always, this theme is free to download and use for any purpose!</p>
+                    <h3>Gratis</h3>
+                    <p class="text-muted">aplikasi ini gratis untuk didownload dan digunakan untuk keperluan mencari informasi magang</p>
                   </div>
                 </div>
                 <div class="col-lg-6">
                   <div class="feature-item">
-                    <i class="icon-lock-open text-primary"></i>
-                    <h3>Open Source</h3>
-                    <p class="text-muted">Since this theme is MIT licensed, you can use it commercially!</p>
+                    <i class="icon-bell text-primary"></i>
+                    <h3>Dapatkan Pemberitahuan</h3>
+                    <p class="text-muted">dapatkan pemberitahuan jika ada lowongan magang baru!</p>
                   </div>
                 </div>
               </div>
@@ -165,8 +164,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <section class="cta">
       <div class="cta-content">
         <div class="container">
-          <h2>Stop waiting.<br>Start building.</h2>
-          <a href="#contact" class="btn btn-outline btn-xl js-scroll-trigger">Let's Get Started!</a>
+          <h2>Stop mencari manual.<br>Semua tersedia disini</h2>
+          <a href="#contact" class="btn btn-outline btn-xl js-scroll-trigger">Download Pintu Magang!</a>
         </div>
       </div>
       <div class="overlay"></div>
@@ -174,13 +173,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
     <section class="contact bg-primary" id="contact">
       <div class="container">
-        <h2>We
-          <i class="fa fa-heart"></i>
-          new friends!</h2>
+        <h2>Temukan kami!</h2>
         <ul class="list-inline list-social">
-          <li class="list-inline-item social-twitter">
+          <li class="list-inline-item social-github">
             <a href="#">
-              <i class="fa fa-twitter"></i>
+              <i class="fa fa-github"></i>
             </a>
           </li>
           <li class="list-inline-item social-facebook">
@@ -188,9 +185,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               <i class="fa fa-facebook"></i>
             </a>
           </li>
-          <li class="list-inline-item social-google-plus">
+          <li class="list-inline-item social-instagram">
             <a href="#">
-              <i class="fa fa-google-plus"></i>
+              <i class="fa fa-instagram"></i>
             </a>
           </li>
         </ul>
@@ -202,10 +199,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <p>&copy; Your Website 2018. All Rights Reserved.</p>
         <ul class="list-inline">
           <li class="list-inline-item">
-            <a href="#">Privacy</a>
+            <a href="#">Privasi</a>
           </li>
           <li class="list-inline-item">
-            <a href="#">Terms</a>
+            <a href="#">Kebijakan</a>
           </li>
           <li class="list-inline-item">
             <a href="#">FAQ</a>
