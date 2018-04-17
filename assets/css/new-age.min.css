@@ -230,7 +230,7 @@ section.features .feature-item i{
 section.cta{
     position:relative;
     padding:250px 0;
-    background-image:url(assets\img\background.jpg);
+    background-image:url(assets\img\wall1.jpg);
     background-position:center;
     -webkit-background-size:cover;
     -moz-background-size:cover;
@@ -246,7 +246,7 @@ section.cta .cta-content h2{
     max-width:450px;
     margin-top:0;
     margin-bottom:25px;
-    color:#fff
+    color:#ffffff
 }
 @media (min-width:768px){
     section.cta .cta-content h2{

@@ -285,12 +285,12 @@ section.features .feature-item i {
 section.cta {
   position: relative;
   padding: 250px 0;
-  background-image: url(assets\img\background.jpg);
+  background-image: url(assets\img\wall1.jpg);
   background-position: center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: cover
 }
 
 section.cta .cta-content {
