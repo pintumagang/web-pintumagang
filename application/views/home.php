@@ -52,7 +52,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               <a class="nav-link js-scroll-trigger" href="#contact">Kontak</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#Login">Login</a>
+              <a class="nav-link js-scroll-trigger" href="http://localhost/web-company/">Login</a>
             </li>
           </ul>
         </div>
@@ -179,17 +179,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <h2>Temukan kami!</h2>
         <ul class="list-inline list-social">
           <li class="list-inline-item social-github">
-            <a href="#">
+            <a href="https://github.com/pintumagang">
               <i class="fa fa-github"></i>
             </a>
           </li>
           <li class="list-inline-item social-facebook">
-            <a href="#">
+            <a href="https://www.facebook.com/">
               <i class="fa fa-facebook"></i>
             </a>
           </li>
           <li class="list-inline-item social-instagram">
-            <a href="#">
+            <a href="https://www.instagram.com/?hl=id">
               <i class="fa fa-instagram"></i>
             </a>
           </li>
